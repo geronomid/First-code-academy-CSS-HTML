@@ -1,0 +1,46 @@
+body{
+    background-color:LightBlue;
+  }
+  
+  header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+  }
+  
+  h3{
+    text-align: center;
+    font-size: 25px;
+    font-family: ui-rounded;
+  }
+  
+  table{
+    border:solid;
+    border-color: Red;
+    margin: auto;
+    width: 70%;
+  }
+  
+  th{
+    background-color: Grey;
+    font-size: 20px;
+  }
+  
+  td{
+    border-top-style: solid ;
+    border-color: Red;
+    padding: 13px;
+  }
+  
+  span{
+    background-color:LightCoral;
+    padding: 10px;
+  }
+  
+  .value {
+     text-align: center;
+     font-size: 20px;
+     font-family: monospace;
+  }
+    

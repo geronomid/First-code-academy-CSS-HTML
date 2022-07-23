@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Position Reference</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>  
+  <body>
+    <header> CSS Position Properties Reference </header>  
+    <h3> Position Values </h3>
+    <table>
+      <tr>
+        <th> Value </th>
+        <th> Description </th>
+        <th> Notes </th>
+      </tr>
+      <tr>
+        <td class ="value" > <span>Static</span> </td>
+        <td> Element is not positioned in any special way, always positioned according to the normal flow of the page </td>
+        <td> Not affected by the top, bottom, left, and right properties. HTML elements are positioned static by default</td>
+      </tr>
+      <tr> 
+        <td class ="value" > <span> Relative </span> </td>
+        <td> Element is positioned relative to its normal position </td> 
+        <td> Setting the top, right, bottom, and left properties will cause element to be adjusted away from its normal position </td>
+      </tr>
+      <tr> 
+        <td class ="value" > <span> Absolute </span> </td>
+        <td> Element always stays in the same place even if the page is scrolled </td>
+        <td> A fixed element does not leave a gap in the page where it would normally have been located. </td>
+      </tr>
+      <tr> 
+        <td class ="value" > <span> Sticky </span> </td>
+        <td> Element is positioned based on the user's scroll position </td>
+        <td> A sticky element toggles between relative and fixed, depending on the scroll position </td>
+      </tr> 
+    </table>  
+  </body>  
+
+</html>
