@@ -1,0 +1,140 @@
+html{
+    font-size: 16px;
+    font-family: 'Orbitron', sans-serif; 
+}
+
+header{
+    background-color: rgba(153, 151, 151, 0.808);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+header h1{
+    font-family: 'Orbitron', sans-serif; 
+}
+
+header nav{
+   display:flex;
+   padding:1.5rem;
+   justify-content: space-evenly;
+   width:100%;
+}
+
+header nav a{
+    font-size: 2rem;
+    text-decoration: underline;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+
+.Title{
+    display:flex;
+    flex-direction: column;
+    background-image: url("../Images/factory_landscape.jpg");
+    background-size: cover;
+    height:70rem;
+    width:100%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+
+.Tagline {
+    background-color: rgba(153, 151, 151, 0.808);
+    height:12%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.Title h2{
+    font-family: 'Orbitron', sans-serif; 
+    color: antiquewhite;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.Title h2 span{
+    font-weight: bold;
+}
+
+.Portfolio{
+    font-family:'Orbitron', sans-serif; 
+    text-align: center;
+    margin-top: 4rem;
+    width:100%;
+}
+
+.Portfolio ul{
+    display:flex;
+    width: 100%;
+    flex-wrap:wrap;
+}
+
+.Portfolio li{
+    display:flex;
+    width:18%;
+    height:10rem;
+    justify-content:center;
+    align-items: center;
+    gap:2rem;
+    font-size: 1.25rem;
+    font-family: 'Orbitron', sans-serif; 
+    border-style:double;
+}
+
+.Portfolio li img{
+    width:50%;
+    height:90%;
+}
+
+.Team{
+    text-align: center;
+    
+}
+
+.Team ul{
+    display:flex;
+    width: 100%;
+    flex-wrap:wrap;
+    height:40rem;
+    background-image: url("../Images/space-station.jpg");
+    background-size: cover;
+    background-position: center;
+    color: blanchedalmond;
+    align-items:center;
+    justify-content: center;
+}
+
+.Team li{
+    display:flex;
+    width:30%;
+    height: 90%;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+
+.Team li img{
+    width:50%;
+    height:40%;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+#copyright{
+    margin-top: 2.5rem;
+    
+}
