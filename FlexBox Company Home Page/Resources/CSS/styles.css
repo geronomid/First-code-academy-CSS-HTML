@@ -70,30 +70,29 @@ header nav a{
     font-family:'Orbitron', sans-serif; 
     text-align: center;
     margin-top: 4rem;
-    width:100%;
 }
 
 .Portfolio ul{
-    display:flex;
-    width: 100%;
-    flex-wrap:wrap;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap:1rem;
+    
 }
 
 .Portfolio li{
-    display:flex;
-    width:18%;
-    height:10rem;
-    justify-content:center;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap:2rem;
     font-size: 1.25rem;
     font-family: 'Orbitron', sans-serif; 
     border-style:double;
 }
 
 .Portfolio li img{
-    width:50%;
-    height:90%;
+    width:10rem;
+    height:10rem;
 }
 
 .Team{
@@ -103,35 +102,33 @@ header nav a{
 
 .Team ul{
     display:flex;
-    width: 100%;
     flex-wrap:wrap;
-    height:40rem;
+    gap:2rem;
     background-image: url("../Images/space-station.jpg");
     background-size: cover;
     background-position: center;
     color: blanchedalmond;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .Team li{
     display:flex;
-    width:30%;
-    height: 90%;
     flex-direction: column;
     align-items:center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .Team li img{
-    width:50%;
-    height:40%;
+    width:10rem;
+    height:13rem;
 }
 
 footer{
     display:flex;
     flex-direction: column;
     align-items:center;
+    font-size: 1.25rem;
 }
 
 #copyright{
